@@ -24,7 +24,7 @@ public class PrincipalFactura {
 		//add
 		Factura factura = new Factura(0,"FAC-0062",new Date(),23.36,5.36,30.68);
 		factura.setCliente(clienteDAO.findOne(2));
-		//facturaDAO.add(factura);
+		facturaDAO.add(factura);
 		
 		//UPDATE ACTUALIZADO
 		
