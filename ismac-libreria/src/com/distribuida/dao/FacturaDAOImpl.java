@@ -9,7 +9,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.hibernate.query.Query;
 import com.distribuida.entities.Factura;
 @Repository
 public class FacturaDAOImpl implements FacturaDAO {

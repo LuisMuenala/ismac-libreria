@@ -1,14 +1,11 @@
 package com.distribuida.principal;
 
-import java.util.Date;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.distribuida.dao.ClienteDAO;
 import com.distribuida.dao.FacturaDAO;
 import com.distribuida.dao.FacturaDetalleDAO;
 import com.distribuida.dao.LibroDAO;
-import com.distribuida.entities.Factura;
 import com.distribuida.entities.FacturaDetalle;
 
 public class PrincipalFacturaDetalle {
