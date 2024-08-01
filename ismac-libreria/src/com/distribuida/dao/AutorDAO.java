@@ -5,7 +5,7 @@ import java.util.List;
 import com.distribuida.entities.Autor;
 
 public interface AutorDAO {
-	
+	//skdjhcsdjk
 	public List<Autor> findAll();
 	
 	public Autor findOne(int id);
